@@ -1,0 +1,23 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "Template for DIG4503-0077 Spring 2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Illias Askew",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JIGDesigns/DIG4503-Spring2021.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JIGDesigns/DIG4503-Spring2021/issues"
+  },
+  "homepage": "https://github.com/JIGDesigns/DIG4503-Spring2021#readme"
+}
