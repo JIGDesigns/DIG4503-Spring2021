@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Axios from 'axios';
 import Pokemon from '../Pokemon/pokemon.js';
 import Teammaker from '../Teammaker/teammaker.js';
+import Name from '../Name/name.js';
 
 function Search(){
   const [search, setSearch] = useState("");
@@ -32,6 +33,7 @@ function Search(){
         <p>Searched: {search}</p>
       }
      <Pokemon pokemon={pokemon} />
+     <Name/>
      <Teammaker pokemon={pokemon}/>
         </div>);
 
